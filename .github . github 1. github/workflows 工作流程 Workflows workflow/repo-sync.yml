@@ -10,7 +10,7 @@ on:
 
 jobs:
   repo-sync:
-    if: ${{ github.repository != 'RayWangQvQ/RayWangQvQ/BiliBiliTool.Docs' }}
+    if: ${{ github.repository != 'RayWangQvQ/BiliBiliTool.Docs' }}
 
     runs-on: ubuntu-latest
     steps:  
